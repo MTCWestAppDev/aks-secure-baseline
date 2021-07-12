@@ -32,7 +32,7 @@ This is the starting point for the instructions on deploying the [AKS Secure Bas
    > :twisted_rightwards_arrows: If you have forked this reference implementation repo, you'll be able to customize some of the files and commands for a more personalized and production-like experience; ensure references to this git repository mentioned throughout the walkthrough are updated to use your own fork.
 
    ```bash
-   git clone https://github.com/mspnp/aks-secure-baseline.git
+   git clone https://github.com/MTCWestAppDev/aks-secure-baseline.git
    cd aks-secure-baseline
    ```
 
