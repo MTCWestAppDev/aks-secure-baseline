@@ -18,12 +18,6 @@ The AKS Cluster has been enrolled in [GitOps management](./06-gitops.md), wrappi
    UPN_NAME=$(az account show --query user.name -o tsv)
    echo $UPN_NAME
    ```
-   
-   If you find the UPN_NAME does not return the correct value with (az account show --query user.name -o tsv), it is because you created Azure AD tenant    for Kubernetes RBAC API with a personal account. Then you need set the UPN_NAME with the account manually:
-
-   ```bash
-   UPN_NAME=<the account you used to create the Azure AD tenant>
-   ```
    Grant the account the required permissions to import the certificates to Key Vault:
 
    ```bash
