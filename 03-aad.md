@@ -24,7 +24,7 @@ Following the steps below you will result in an Azure AD configuration that will
    TENANTID_AZURERBAC=$(az account show --query tenantId -o tsv)
    ```
 
-1. Playing the role as the Contoso Bicycle Azure AD team, login into the tenant where Kubernetes Cluster API authorization will be associated with.
+1. Playing the role as the Contoso Bicycle Azure AD team, login into the tenant where Kubernetes Cluster API authorization will be associated with. When prompted, please use the aksworkshop account you have assigned as Global Admin in the Azure AD tenant you create.
 
    ```bash
    az login -t <Replace-With-ClusterApi-AzureAD-TenantId> --allow-no-subscriptions
