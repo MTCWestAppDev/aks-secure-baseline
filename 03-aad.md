@@ -104,7 +104,7 @@ Following the steps below you will result in an Azure AD configuration that will
    export AADOBJECTID_GROUP_A0008_READER='please replace with your values'
 
 
-   echo $AADOBJECTNAME_GROUP_CLUSTERADMIN
+   echo $AADOBJECTID_USER_CLUSTERADMIN
    echo $TENANTID_K8SRBAC
    echo $TENANTID_AZURERBAC
    echo $AADOBJECTID_GROUP_A0008_READER
